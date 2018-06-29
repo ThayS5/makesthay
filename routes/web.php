@@ -12,4 +12,5 @@
 */
 
  	
-Route::get("/login","Login@index");
+Route::get("/login","LoginController@index");
+Route::get("/","HomeController@index");

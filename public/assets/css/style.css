@@ -1,8 +1,35 @@
+:root{
+	--rose: #FCEDF5;
+}
+
+body{
+	background-color: var(--rose);
+	overflow-y: hidden !important;
+}
+
+.ui.inverted.menu{
+	background-color: #521537 !important;
+}
+
+.pusher{
+	background-color: var(--rose) !important;
+	padding: 5em 3em 0em 3em !important
+}
+
 .login{
 	position: relative;
 	top: 15em;
 }
 
 .ui.image{
-	display: inline-block;
+	display: inline-block !important;
+}
+
+.logo img{
+	height: 5.5em !important;
+	cursor: pointer;
+}
+
+.ft-content{
+	padding: 4em 0.1em;
 }

@@ -10,6 +10,7 @@
 	<link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
 	<script src="{{asset('assets/js/jquery.js')}}"></script>
 	<script src="{{asset('assets/js/semantic.min.js')}}"></script>
+	<script src="{{asset('assets/js/main.js')}}"></script>
 </head>
 <body>
 	@yield('content')
